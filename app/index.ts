@@ -1,7 +1,7 @@
 import basics from './examples/basics'
 import JengaCard from './examples/classes'
 
-// basics()
+basics()
 
 const card: JengaCard = new JengaCard()
 
