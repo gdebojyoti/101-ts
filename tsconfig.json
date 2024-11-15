@@ -3,6 +3,11 @@
     "strict": true,
     "noImplicitAny": true,
     "rootDir": "./app",
-    "outDir": "./dist"
-  }
+    "outDir": "./dist",
+    "target": "ES6",
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
 }
