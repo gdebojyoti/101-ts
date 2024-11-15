@@ -1,5 +1,6 @@
 import basics from './examples/basics'
 import JengaCard from './examples/classes'
+import types from './examples/types'
 
 basics()
 
@@ -9,3 +10,5 @@ const card: JengaCard = new JengaCard()
 console.log(card.name)
 // console.log(card.altName) // error
 card.printType()
+
+types()

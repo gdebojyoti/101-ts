@@ -35,30 +35,6 @@ function basics (): void {
   console.log(randomFunc(false))
   anotherRandomFunc()
   anotherRandomFunc(true)
-
-  /* Union type */
-  function printTrue (input: boolean | string): void {
-    if (typeof input === "boolean") {
-      console.log("'Twas boolean")
-    } else {
-      console.log("'Twas string")
-    }
-  }
-  printTrue(true)
-  printTrue('true')
-
-  /* Intersection type */
-  interface obj1 {
-    name: string
-  }
-  interface obj2 {
-    age: number
-  }
-  function printStudent(student: obj1 & obj2): void {
-    console.log(student)
-  }
-  // printStudent({ name: 'Ron' }) // error
-  printStudent({ name: 'Hermione', age: 23 })
 }
 
 export default basics
