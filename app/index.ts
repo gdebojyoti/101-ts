@@ -1,2 +1,3 @@
-let myFirstVariable: string = "I got in."
-console.log(myFirstVariable)
+import basics from './examples/basics'
+
+basics()
